@@ -109,3 +109,16 @@ p {
     border: 2px solid white;
 }
 
+/* used in JS file for result */
+
+.greenglow{
+    background-color: #4CBB17;
+}
+
+.redglow{
+    background-color:#FF4433;
+}
+
+.grayglow{
+    background-color:#C0C0C0 ;
+}
