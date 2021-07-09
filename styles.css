@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&family=Tourney&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Questrial';
+    background-color: #123456;
+}
+
+header {
+    background-color: white;
+    color: #123456;
+    text-align: center;
+    padding: .5rem;
+    border-radius: .2rem;
+    font-family: 'Tourney';
+}
+
+.score-board {
+    margin:2rem auto;
+    border: 3px solid white;
+    width: 200px;
+    color: white;
+    font-size: 35px;
+    border-radius: .2rem;
+    text-align: center;
+    padding: .5rem 1rem;
+    position: relative;
+    }
+
+.badge {
+    background-color:#FBB117 ;
+    color: #123456;
+    font-size: 15px;
+    font-weight: bold;
+    padding: .2rem;
+    border: 1px solid #123456;
+   
+}
+
+#user-label {
+    position: absolute;
+    top: 15px;
+    left: -18px;
+}
+
+#bot-label {
+    position: absolute;
+    top: 15px;
+    right: -17px;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+.result {
+    font-size: 25px;
+}
+
+.choices {
+       margin: 1rem;
+       text-align: center;
+   }
+
+.hand {
+       display: inline-block;
+       border: 2px solid white;
+       padding: .5rem;
+       margin: .5rem;
+       transition: all 0.3s ease;
+}
+
+.hand:hover {
+    cursor: pointer;
+   
+}
+
+#msg {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.reset{
+  display: flex;
+   justify-content: center;
+   padding: 2rem;
+   }
+
+#resetBtn{
+    background-color: white;
+    color:#123456;
+    padding: .5rem;
+    border: 2px solid #123456;
+    border-radius: .2rem;
+    font-weight: 800;
+    transition: all .3s ease;
+}
+
+#resetBtn:hover{
+    cursor: pointer;
+    background-color: #123456;
+    color: white;
+    border: 2px solid white;
+}
+
