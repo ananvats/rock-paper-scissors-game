@@ -12,4 +12,7 @@
 [ROCK-PAPER-SCISSORS](https://ananya-rock-paper-scissors-game.netlify.app/)
 
 
+![screenshot](https://github.com/ananyasingghh/rock-paper-scissors-game/blob/main/images/screenshot.PNG)
+
+
 
